@@ -71,7 +71,7 @@ const { title, description, image = "/images/banner.png" } = Astro.props;
 <script is:inline src="/js/theme.js"></script>
 <script is:inline src="/js/scroll.js"></script>
 
-<ViewTransitions />
+<!-- <ViewTransitions /> -->
 
 <script>
   import type { TransitionBeforeSwapEvent } from "astro:transitions/client";
@@ -82,4 +82,18 @@ const { title, description, image = "/images/banner.png" } = Astro.props;
       ),
     ].forEach((link) => link.remove())
   );
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script
+  type="text/partytown"
+  src="https://www.googletagmanager.com/gtag/js?id=G-JBWJ7PTZV2"></script>
+<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "G-JBWJ7PTZV2");
 </script>
