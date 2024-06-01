@@ -119,6 +119,7 @@ const stack = [
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.naveenmk.me/posts?utm_source=project_page"
+              onclick="gtag('event', 'click', { 'event_category': 'cta', 'event_label': 'blog' });"
               class="py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend"
             >
               Read my blog
@@ -244,6 +245,8 @@ const stack = [
                     <a
                       href={social.HREF}
                       target="_blank"
+                      rel="noopener noreferrer"
+                      onclick={`gtag('event', 'click', { 'event_category': 'social', 'event_label': '${social.NAME}' });`}
                       class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend"
                     >
                       <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
