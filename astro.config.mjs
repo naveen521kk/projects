@@ -9,7 +9,13 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: "https://projects.naveenmk.me",
-  integrations: [mdx(), sitemap(), solidJs(), tailwind({
-    applyBaseStyles: false
-  }), react()]
+  integrations: [
+    mdx(),
+    sitemap(),
+    solidJs(),
+    tailwind({
+      applyBaseStyles: false,
+    }),
+    react(),
+  ],
 });
