@@ -93,8 +93,15 @@ const { title, description, image = "/images/banner.png" } = Astro.props;
   function gtag() {
     dataLayer.push(arguments);
   }
-  window.gtag = gtag;
   gtag("js", new Date());
 
   gtag("config", "G-JBWJ7PTZV2");
+</script>
+
+<script is:inline>
+  function gtag() {
+    // @ts-ignore
+    window.dataLayer.push(arguments);
+  }
+  window.gtag = gtag;
 </script>
