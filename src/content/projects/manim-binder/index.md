@@ -50,7 +50,7 @@ process smoother for newcomers.
 
 **GitHub Repository:** [Manim Binder](https://github.com/naveen521kk/manim-binder)
 
-**Pull Request:** https://github.com/ManimCommunity/manim/pull/3427
+**Pull Request:** [ManimCommunity/manim#3427](https://github.com/ManimCommunity/manim/pull/3427)
 
 The project’s core functionality is implemented in TypeScript and compiled into
 a minified JavaScript file using Webpack. This file is then included in the Manim
