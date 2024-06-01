@@ -12,10 +12,16 @@ export default defineConfig({
   integrations: [
     mdx(),
     sitemap(),
-    solidJs(),
+    solidJs({
+      include: ["**"],
+      exclude: ["**/react/*"],
+    }),
     tailwind({
       applyBaseStyles: false,
     }),
-    react(),
+    react({
+      include: ["**/react/*"],
+      exclude: ["**"],
+    }),
   ],
 });
