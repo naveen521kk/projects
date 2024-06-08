@@ -19,7 +19,10 @@ You can view the project live on the
 
 Below is a demo video of the project:
 
-<iframe height="315" src="https://www.youtube-nocookie.com/embed/6PqnJMDH9EU?si=qzfxI4kl9vf2NCpL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<lite-youtube
+    videoid="6PqnJMDH9EU"
+    playlabel="Adding interactive Code Blocks to Manim Documentation — Manim Binder — Demo Video"></lite-youtube>
 
 
 ## Project's Background

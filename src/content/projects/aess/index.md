@@ -106,4 +106,6 @@ This project tackles the challenges of traditional essay grading by creating an 
 
 ### Demo Video
 
-<iframe height="315" src="https://www.youtube.com/embed/DeEN5y_ykfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<lite-youtube
+    videoid="DeEN5y_ykfU"
+    playlabel="Automated Essay Validator System - Demo Video"></lite-youtube>
