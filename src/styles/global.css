@@ -146,3 +146,14 @@ article img {
 #meteors .shower.ul {
   @apply rotate-315;
 }
+
+/* iframe youtube video styles to fit correctly in mobile */
+iframe {
+  cursor: pointer;
+  display: inline-block;
+  height: 230px;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 400px;
+}
