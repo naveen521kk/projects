@@ -13,6 +13,7 @@ tags:
 - Python
 - React
 demoUrl: https://www.youtube.com/embed/DeEN5y_ykfU
+repoUrl: https://github.com/naveen521kk/aess
 ---
 
 ## Automated Essay Scoring System (AESS)
