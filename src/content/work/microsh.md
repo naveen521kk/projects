@@ -2,7 +2,7 @@
 company: "Microsh"
 role: "Software Engineer (Freelancer)"
 dateStart: "2024-03-01"
-dateEnd: "Present"
+dateEnd: "2024-07-31"
 ---
 
 Company URL: https://www.microsh.com/
