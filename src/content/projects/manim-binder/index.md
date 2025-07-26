@@ -10,6 +10,7 @@ tags:
 - Sphinx
 demoUrl: https://docs.manim.community/en/stable/examples.html
 repoUrl: https://github.com/naveen521kk/manim-binder
+image: /images/manim-binder.png
 ---
 
 ![manim binder](/images/manim-binder.png)
