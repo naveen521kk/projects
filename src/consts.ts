@@ -68,4 +68,10 @@ export const SOCIALS: Socials = [
     TEXT: "naveen521kk",
     HREF: "https://twitter.com/naveen521kk",
   },
+  {
+    NAME: "Fiverr",
+    ICON: "fiverr",
+    TEXT: "webwizardnk",
+    HREF: "https://www.fiverr.com/webwizardnk",
+  }
 ];
