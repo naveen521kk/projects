@@ -1,14 +1,15 @@
 ---
 company: "Autodesk"
-role: "SDE Intern"
-dateStart: "2025-01-06"
-dateEnd: "2025-06-30"
+role: "Software Development Engineer"
+dateStart: "2025-07-07"
+dateEnd: "Present"
 ---
 
 Company URL: https://www.autodesk.com/
 
-- Developed an internal taxability debugging tool using Electron and Next.js, streamlining tax scenario analysis and improving efficiency in resolving production transaction issues.
-- Collaborated with a velocity-driven Agile team, enhancing the internal tax processing system for inter-company and external transactions.
-- Gained exposure to SAP and finance engineering tools, assisting in understanding tax input, output, and inter-company transactions for a large-scale enterprise.
-
-*Ongoing internship*
+- Ported a large-scale internal desktop application from Electron to a web-based platform and deployed it on AWS with robust multi-environment support for development, staging, and production workflows.
+- Designed and implemented scalable test automation solutions to support QA efforts across multiple ongoing enterprise projects, improving testing efficiency and release reliability.
+- Engineered a modern automation framework using Python and Playwright, while successfully migrating and maintaining legacy Selenium-based test suites with improved extensibility and maintainability.
+- Built an integrated test execution platform connecting the automation framework with Jenkins, Jira, and a custom web interface, enabling streamlined test execution, reporting, and compliance workflows through automated Jira result uploads.
+- Developed an enterprise LLM-powered chat interface integrated with internal systems via MCP tools, including SAP, Vertex, and Avalara, enabling faster operational support and improving productivity for engineering, production support, and operations teams.
+- Collaborated cross-functionally with development, QA, and operations teams to deliver internal tooling and automation solutions that improved workflow efficiency and reduced manual effort across the organization.
